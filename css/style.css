@@ -1,0 +1,126 @@
+/* universal selector*/
+*{
+margin:0;
+padding:0;
+}
+
+body{
+background-color: #ccddcc;
+}
+#container{
+margin:auto auto;
+width:1140px;
+min-height:1000px;
+background-color: #99ffcc;
+border:5px solid #99ffcc;
+border-radius: 0px 50px 0px 50px;
+}
+
+.row{
+min-height:10px;
+}
+
+.col100{
+width:100%;
+min-height: 20px;
+
+}
+.col75{
+width:75%;
+min-height: 20px;
+float:left;
+}
+.col50{
+width:50%;
+min-height: 20px;
+float:left;
+}
+.col25{
+width:25%;
+margin: auto auto;
+min-height: 20px;
+float:left;
+}
+.clear{
+clear:both;
+}
+.border{
+margin:5px;
+padding:5px;
+width:95%;
+min-height:50px;
+border:1px solid #000000;
+}
+
+.col25border{
+width:23%;
+padding:3px;
+margin:5px;
+border:1px solid #000000;
+border-radius:0px 0px 0px 0px;
+
+}
+.col50border{
+width:46%;
+padding:4px;
+margin:5px;
+border:1px solid #000000;
+border-radius:0px 0px 0px 0px;
+
+}
+
+
+.mhborder{
+width:85%;
+padding: 30px;
+border:1px solid #000000;
+border-radius:0px 0px 10px 10px;
+border-bottom: 2px dotted #000000;
+}
+.col25 span{
+font-size:200px;
+color:red;
+text-align: right;
+
+
+}
+.circle{
+border-radius: 50%;
+
+}
+
+
+.menu{
+	width: 1140px;
+	min-height: 50px;
+	background-color: #00ff00;
+
+}
+.menu ul
+{
+list-style-type:none;
+float:right;
+margin-top:15px;
+}
+
+.menu ul li{
+padding: 10px;
+display: inline-block;
+}
+
+.menu ul li:hover{
+	background-color: #0000ff;
+	box-shadow: 5px 5px 10px #ffc
+
+}
+.menu ul li a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+	font-variant: small-caps;
+}
+
+.menu ul li a:hover{
+	text-decoration:overline;
+}
